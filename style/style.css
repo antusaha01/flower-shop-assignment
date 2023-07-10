@@ -15,6 +15,10 @@ body{
     font-size: 40px;
     font-weight: 800;
 }
+.section-container{
+    max-width: 1140px;
+    margin: auto;
+}
 /* banner section start  */
 
 .banner-section{
@@ -43,3 +47,95 @@ body{
     width: 500px;
 }
 /* banner section end  */
+
+/* Our Featured Flowers section start  */
+
+.featured-section{
+    margin-top: 120px;
+}
+.featured-section-description{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    max-width: 600px;
+    margin: auto;
+    margin-top: 25px;
+}
+.featured-section-img{
+    width: 200px;
+}
+.featured-section-img-area{
+    margin-top: 45px;
+    display: flex;
+    justify-content: center;
+}
+.frist-image{
+    padding: 60px 60px 0px 60px;
+    background-color: rgba(167, 33, 98, 0.15);
+    margin: 30px;
+    border-radius: 300px 300px 0px 0px;
+}
+.secend-image{
+    padding: 60px 60px 0px 60px;
+    background-color: rgba(5, 151, 160, 0.15);
+    margin: 30px;
+    border-radius: 300px 300px 0px 0px;
+}
+.thrid-image{
+    padding: 60px 60px 0px 60px;
+    background-color: rgba(71, 125, 17, 0.15);
+    margin: 30px;
+    border-radius: 300px 300px 0px 0px;
+}
+
+/* Our Featured Flowers section end  */
+
+/* hot deal section start  */
+
+.hot-deal-section{
+    margin-top: 120px;
+    background-color: rgba(229, 84, 115, 0.05);
+}
+.hot-deal-container{
+    display: flex;
+    max-width: 1140px;
+    margin: auto;
+    padding: 50px;
+}
+.hot-deal-section-column{
+    padding: 30px;
+}
+.hot-deal-section-img{
+    width: 250px;
+}
+.hot-deal-sction-description{
+    color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+}
+.hot-deal-section-column{
+    text-align: center;
+}
+
+/* hot deal section start  */
+
+/* instagram section start  */
+
+.instagram-section{
+    margin-top: 120px;
+}
+.instagram-section-container{
+    max-width: 1140px;
+    margin: auto;
+}
+.instagram-section-img{
+    width: 250px;
+    padding: 10px;
+}
+.instagram-img-area{
+    margin-top: 30px;
+}
+
+/* instagram section end  */

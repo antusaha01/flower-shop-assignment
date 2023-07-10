@@ -139,3 +139,49 @@ font-weight: 400;
 }
 
 /* instagram section end  */
+
+/* get deal section start  */
+
+.get-deal-section{
+    margin-top: 120px;
+    text-align: center;
+}
+.get-deal-section-container{
+    max-width: 1140px;
+    margin: auto;
+    background: url(../image/Rectangle\ 9.png);
+    background-position: center;
+    border-radius: 5px;
+    padding: 50px;
+}
+.inpute-email{
+    padding: 15px 400px 15px 10px ;
+    border: none;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+/* get deal section end */
+
+/* footer section start  */
+.footer-container{
+    padding: 80px;
+    text-align: center;
+    background: #111010;
+    margin-top: 120px;
+}
+.footer-title{
+    font-size: 48px;
+    font-weight: 800;
+    color: white;
+}
+.footer-description{
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 18px;
+    font-weight: 400;
+}
+.copy-write{
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px;
+    font-weight: 400;
+}
+/* footer section end */

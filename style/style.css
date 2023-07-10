@@ -8,6 +8,12 @@ body{
     background-color: #E55473;
     border: none;
     border-radius: 5px;
+    border: 1px solid #E55473;
+}
+.main-btn:hover{
+    background-color: white;
+    color: #E55473;
+    border: 1px solid #E55473;
 }
 .section-title{
     color: #272727;
@@ -19,6 +25,35 @@ body{
     max-width: 1140px;
     margin: auto;
 }
+
+/* navbar start  */
+
+nav{
+    display: flex;
+    justify-content:space-between;
+    padding: 0px 50px;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+.a{ 
+    text-decoration: none;
+    margin-right: 30px;
+    color: #111010;
+    padding: 15px 20px;
+}
+.a:hover{
+    background: #E55473;
+    color: white;
+    border-radius: 5px;
+}
+/* navbar end */
+
+
+
+
 /* banner section start  */
 
 .banner-section{
